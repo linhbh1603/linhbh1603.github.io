@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+}
+#name{
+	position: absolute;
+	top: 200px;
+	left: 623px;
+}
+#name>span{
+	font-size: 60px;
+	color: white;
+	font-family: cursive;
+	animation: name 8s ease infinite;
+	animation-delay: 4s;
+}
+@keyframes name{
+	0%{color: lightblue;}
+	30%{color: red;}
+	60%{color: blue;}
+	100%{color: hotpink;}
+
+}
+
+body{
+	background-color: white;
+}
+#main_div{
+	width: 1366px;
+	position: relative;
+	top:0;
+	left: 0;
+}
+#center_img{
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	top: 300px;
+	left:383px;
+	z-index: -1;
+}
+#angle1{
+	position: absolute;
+	top: 290px;
+	left: -160px;
+	max-width: 160px;
+	animation: angle1 12s ease infinite;
+	animation-delay: 2.5s;
+	transform: rotateX(45deg);
+}
+@keyframes angle1{
+	0% {top: 300px;left: 0px;opacity:0.1;}
+	20% {top: 280px;left: 200px; width: 200px; height: 50px; opacity: 0.4;}
+	40% {top: 260px;left: 400px; width: 170px; height: 100px;opacity: 0.8;}
+	60% {top: 240px;left: 800px; transform: rotateY(40deg);opacity: 1}
+	80% {top: 240px;left: 1200px;opacity:1}
+	100% {top: 200px;left: 1300px;}
+}
+#angle2{
+	max-width: 160px;
+	transform: rotateX(30deg);
+	position: absolute;
+	top: 100px;
+	left: -160px;
+	animation: angle2 9s ease-in infinite;
+	animation-delay: 3s;
+}
+@keyframes angle2{
+	0% {top: 100px;left: 0px;opacity:0.1;}
+	20% {top: 100px;left: 200px; width: 200px; height: 50px; opacity: 0.4;}
+	40% {top: 150px;left: 400px; width: 170px; height: 100px;opacity: 0.8;}
+	60% {top: 80px;left: 800px; opacity: 1}
+	80% {top: 100px;left: 1200px;opacity:1}
+	100% {top: 90px;left: 1300px;}
+}	
+#angle3{
+	max-width: 120px;
+	position: absolute;
+	top: 100px;
+	right: -160px;
+	animation: angle3 10s ease infinite;
+	animation-delay: 3s;
+}
+@keyframes angle3{
+	0% {top: 200px;right: 0px;opacity:0.1;}
+	20% {top: 100px;right: 200px;opacity: 0.4;}
+	40% {top: 150px;right: 400px; }
+	60% {top: 80px;right: 800px; transform: rotateX(30deg);opacity: 1}
+	80% {top: 100px;right: 1200px;opacity:1}
+	100% {top: 90px;right: 1300px;}
+}
+#angle4{
+	max-width: 120px;
+	position: absolute;
+	top: 100px;
+	right: -160px;
+	animation: angle4 13s ease-in infinite;
+	animation-delay: 3s;
+}
+@keyframes angle4{
+	0% {top: 100px;right: 0px;opacity:0.1;}
+	20% {top: 120px;right: 180px;opacity: 0.4;}
+	40% {top: 150px;right: 320px; }
+	60% {top: 80px;right: 670px; transform: rotateX(30deg);opacity: 1}
+	80% {top: 100px;right: 1113px;opacity:1}
+	100% {top: 90px;right: 1300px;}
+}		
