@@ -1,0 +1,102 @@
+*{
+	box-sizing: border-box;
+}
+.main-menu{
+	margin: 60px 0 0 0;
+}
+.main-menu ul{
+list-style-type: none;
+}
+.main-menu>ul>li{
+	font-size: 22px;
+	display: inline-block;
+	position: relative;
+	margin-right: 20px;
+}
+.main-menu ul li a{
+	color: #fff;
+	background-color: #5cb0fa;
+	border-radius: 20px;
+	padding: 5px 7px 5px 7px;
+	margin:1px auto;
+	display: block;
+	transition: color 0.3s background 0.3s;
+}
+.main-menu ul li a:hover{
+	color: #5cb0fa;
+	background-color:#fff;
+}
+.main-menu ul li ul{
+	text-align: center;
+	display: none;
+	position: absolute;
+	top: 39px;
+    left: -40px;
+	font-size: 20px;
+	width: 300px;
+}
+.main-menu ul li:hover ul{
+	display: block;
+	width: 280px;
+}
+.mon-an span{
+	font-size: 2em;
+	font-family: cursive;
+	color: #e74c3c;
+}
+.mon-an{
+	text-align: center;
+	margin: 20px auto;
+}
+.box{
+	border: 1px solid #3498dd;
+	border-top-width: 3px;
+	width: 322px;
+	float: left;
+	text-align: center;
+	padding: 15px 0px 0px 0px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+	transition: background-color 0.3s; 
+	transition: transform 0.4s;
+}
+.left span{
+	color: #e74c3c;
+	font-family: cursive;
+}
+.hearphone span{
+	color: #2ecc71;
+	font-family: cursive;
+}
+.dslr span{
+	color: #3498db;
+	font-family: cursive;
+}
+.wrap{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.img{
+	width: 320px;
+	height: 220px;
+	vertical-align: middle;
+}
+.box:hover{
+	box-shadow: 0 7px 12px 4px grey;
+	transform: translate(0,-5px);
+	background-color: #e3eafa;
+}
+.main-menu> a:hover{
+	background-color: #fff;
+	color: #4cbcf9;
+}
+#chat_icon{
+	position: fixed;
+	bottom: 7px;
+	right: 30px;
+}
+#chat_icon a img{
+	max-width: 60px;
+}
+
+

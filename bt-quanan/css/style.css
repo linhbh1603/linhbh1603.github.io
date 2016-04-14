@@ -1,0 +1,17 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #ecf0f1;
+	font-family: serif;
+	font-size: 20px;
+}
+#background{
+	width: 1000px;
+	max-height: 300px;
+}
+a{
+	text-decoration: none;
+}
+
+
