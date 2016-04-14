@@ -90,6 +90,37 @@ list-style-type: none;
 	background-color: #fff;
 	color: #4cbcf9;
 }
+
+.clear{
+	clear:left;
+}
+.last{
+	background-color: #e3eafa;
+	font-family: cursive;
+}
+.last span{
+	color:#fd1428;
+	font-size: 22px;
+}
+#ul-facebook{
+	list-style-image: url('facebook.png');
+}
+#ul-twitter{
+	list-style-image: url('twitter.png');
+}
+#ul-googleplus{
+	list-style-image: url('googleplus.png');
+}
+.last>div{
+	width: 350px;
+	display: inline-block;
+}
+#follow{
+	margin-left: 176px;
+}
+#thong-tin{
+	margin-left: -21px;
+}
 #chat_icon{
 	position: fixed;
 	bottom: 7px;
@@ -98,5 +129,3 @@ list-style-type: none;
 #chat_icon a img{
 	max-width: 60px;
 }
-
-
