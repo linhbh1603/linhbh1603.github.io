@@ -1,0 +1,51 @@
+.chi-tiet-mon-an-top-left{
+	width: 546px;
+	margin: 50px 0 0 0;
+	display: inline-block;
+}
+.img-chi-tiet-mon-an{
+	width: 540px;
+	height: 360px;
+	border-radius: 30px;
+	border: 3px solid #f3a17d;
+}
+.chi-tiet-mon-an-top span{
+	color: #fd1428;
+	font-family: cursive;
+}
+.chi-tiet-mon-an-top-right{
+	width: 448px;
+	display: inline-block;
+	padding: 0 0 0 15px;
+	text-align: center;
+}
+.chi-tiet-mon-an-top-right p{
+	text-align: justify;
+}
+.chi-tiet-mon-an-bottom-left{
+	width: 300px;
+	text-align: justify;
+	background-color: #b1e0f4;
+	display: block;
+	float: left;
+	border-radius: 20px;
+	box-shadow: 5px 5px 3px grey;
+	padding: 0px 25px 10px 25px;
+}
+.chi-tiet-mon-an-bottom-right{
+	width: 680px;
+	text-align: justify;
+	box-shadow: 5px 5px 3px grey;
+	background-color: white;
+	border-radius: 20px;
+	padding: 0px 25px 10px 25px;
+	float: left;
+	display: block;
+	margin: 0 0 20px 20px;
+	border: 1px solid grey;
+}
+.chi-tiet-mon-an-bottom h3{
+	text-align: center;
+	color: #fd1428;
+	font-family: cursive;
+}

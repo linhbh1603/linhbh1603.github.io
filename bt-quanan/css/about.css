@@ -30,7 +30,7 @@ list-style-type: none;
 	text-align: center;
 	display: none;
 	position: absolute;
-	top: 39px;
+	top: 38px;
     left: -40px;
 	font-size: 20px;
 	width: 300px;
@@ -114,6 +114,7 @@ list-style-type: none;
 .last>div{
 	width: 350px;
 	display: inline-block;
+	margin-top: 20px;
 }
 #follow{
 	margin-left: 176px;
