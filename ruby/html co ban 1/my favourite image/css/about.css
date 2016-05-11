@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+}
+.box{
+	width: 32%;
+	border: 1px solid #3498dd;
+	border-top-width: 3px;
+	float: left;
+	text-align: center;
+	padding: 15px 0px 30px 0px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+	transition: background-color 0.3s; 
+	transition: transform 0.4s}
+.iphone span{
+	color: #e74c3c;
+	font-family: cursive;
+	
+}
+.hearphone span{
+	color: #2ecc71;
+	font-family: cursive;
+	
+}
+.dslr span{
+	color: #3498db;
+	font-family: cursive;
+	
+}
+.wrap{
+	max-width: 1000px;
+	margin: 0 auto;
+	
+}
+.img{
+	max-width: 100%;
+}
+.main-menu{
+	margin: 100px auto;
+	position: relative;
+	
+}
+#my-img {
+	
+	position: absolute;
+	left: 403px;
+    top: -70px;
+
+}
+.main-menu a{
+	text-decoration: none;
+	color:#fff;
+	background-color: #4cbcf9;
+	padding: 10px 10px 10px 10px;
+	
+	border-radius: 15px;
+
+}
+.box:hover{
+	box-shadow: 0 7px 12px 4px grey;
+	transform: translate(0,-5px);
+	background-color: #f59dc3;
+}
+.main-menu a:hover{
+	background-color: #fff;
+	color: #4cbcf9;
+}
+.main-menu > a:first-child{
+	background: transparent;
+	position:absolute;
+	top: -181px;
+	left: 32px;
+}
+.main-menu >a:first-child>img{
+	max-width: 180px;
+	border-radius: 50%;
+	background-color: #ecf0f1;
+	padding: 3px 3px 3px 3px;
+}
+#chat_icon{
+	position: fixed;
+	bottom: 7px;
+	right: 30px;
+}
+#chat_icon a img{
+	max-width: 60px;
+}
+
+
