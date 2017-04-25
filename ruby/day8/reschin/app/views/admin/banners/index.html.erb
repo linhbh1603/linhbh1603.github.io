@@ -1,0 +1,48 @@
+
+<%= link_to "New Banner", new_admin_banner_path,
+            class: 'btn btn-primary' %>
+
+<table class="table table-hover __web-inspector-hide-shortcut__">
+  <thead>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Image</th>
+    <th>Description</th>
+    <th>Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+    <% @banners.each do |banner| %>
+      <tr>
+        <td><%= banner.id %></td>
+        <td><%= banner.name %></td>
+        <td>
+          <%= image_tag banner.image,
+                          width: '100px',
+                          height: '100px' %>
+        </td>
+        <td>
+          <%= banner.article ? banner.article.title : 'No Article' %>
+        </td>
+        <td>
+          
+          <%= link_to admin_banner_path(id: banner.id) do %>
+            <button class="btn btn-default">Show</button>
+          <% end %>
+          
+          <%= link_to edit_admin_banner_path(id: banner.id) do %>
+            <button class="btn btn-default">Edit</button>
+          <% end %>
+
+          <%= link_to admin_banner_path(banner),
+                      method: :delete,
+                      data: { confirm: 'Are you sure?' } do %>
+            <button class="btn btn-danger">Destroy</button>
+          <% end %>
+
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

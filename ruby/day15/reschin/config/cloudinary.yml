@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dd72ghyul
+  api_key: '687428159448931'
+  api_secret: 8McxIGme5wCPO0b0P8PrU-Vs_T8
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dd72ghyul
+  api_key: '687428159448931'
+  api_secret: 8McxIGme5wCPO0b0P8PrU-Vs_T8
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dd72ghyul
+  api_key: '687428159448931'
+  api_secret: 8McxIGme5wCPO0b0P8PrU-Vs_T8
+  enhance_image_tag: true
+  static_image_support: false

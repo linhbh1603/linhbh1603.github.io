@@ -1,0 +1,34 @@
+.bxslider {
+  text-align: center;
+  img {
+    width: auto;
+    height: auto;
+    max-height: 271px;
+    display: inline-block !important;
+    cursor: pointer;
+  }
+
+}
+
+#slide-banner {
+  img {
+    max-width: 28%;
+  }
+
+  img:first-child {
+    max-width: 38%;
+  }
+}
+
+.bx-wrapper {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.restaurant-item {
+  margin-bottom: 80px;
+
+  .category-title {
+    font-weight: 600;
+  }
+}

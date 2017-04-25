@@ -1,0 +1,7 @@
+<h1>
+  <%= @banner.name %>
+</h1>
+
+<%= image_tag @banner.image, width: '150px', height: '150px' %>
+
+<%= @banner.description ? @banner.description : 'No Description' %>

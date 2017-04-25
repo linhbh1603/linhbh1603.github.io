@@ -1,0 +1,11 @@
+  <ul class="bxslider" id="slide-banner">
+
+      <% @banners.each do |_banners| %>
+        <li class="">
+          <% _banners.each do |banner| %>
+              <%= image_tag banner.image, class: 'img img-responsive' %>
+          <% end %>
+        </li>
+      <% end %>
+
+  </ul>

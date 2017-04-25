@@ -1,0 +1,52 @@
+<div class="col-md-12">
+  <div class="pull-left"><h2> List Banners </h2></div>
+  <div class="pull-right admin-new-btn">
+    <%= link_to 'New Category', new_admin_category_path, class: 'btn btn-primary' %>
+  </div>
+</div>
+
+<div class="col-md-12">
+  <hr>
+</div>
+
+<div class="col-md-12">
+  <table class="table table-hover">
+    <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Image</th>
+        <th>Description</th>
+        <th>Actions</th>
+    </thead>
+
+    <tbody>
+      <% @categories.each do |category| %>
+        <tr>
+          <td>
+            <%= category.id %>
+          </td>
+
+          <td>
+            <%= category.name %>
+          </td>
+
+          
+             <td>
+              <%= image_tag category.image ? category.image : 'url image' , width: '100px', height: 'auto' %>
+            </td> 
+          
+
+          <td>
+            <%= category.description %>
+          </td>
+
+          <td>
+            <%= link_to 'View', admin_category_path(category), class: "btn btn-default" %>
+            <%= link_to 'Edit', edit_admin_category_path(category), class: "btn btn-default" %>
+            <%= link_to 'Destroy', admin_category_path(category), method: :delete, data: {confirm: 'Are you sure?'}, class: "btn btn-danger" %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

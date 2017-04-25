@@ -1,0 +1,43 @@
+body {
+    background-image: url('images/pattern.png'), url('images/6.jpg');
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    background-attachment: fixed;
+    font-family: 'Josefin Slab';
+}
+
+h1#page-title {
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+span.big-text {
+    font-size: 2em;
+}
+
+span.small-text {
+    font-size: 1em;
+}
+
+ul.menu {
+    color: #fff;
+    font-size: 3em;
+    width: 30%;
+}
+
+ul.menu li{
+    display: inline-block;    
+    margin: 12px 5px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.4s ease-in-out;
+}
+
+ul.menu li:hover {
+    cursor: pointer;
+    background: transparent;
+    color: darkorange;
+}
+
